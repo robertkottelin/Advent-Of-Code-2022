@@ -1,5 +1,5 @@
 with open('input.txt') as f:
-    all_packs = f.read().split('\n')+
+    all_packs = f.read().split('\n')
 
 separators, packsums, start_span = [i for i in range(len(all_packs)) if all_packs[i] == ''], [], 0
 
